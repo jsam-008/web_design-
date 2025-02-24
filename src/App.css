@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .turfs {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .turf-grid {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .turf-card {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(34, 0, 255, 0.399);
+  }
+  
+  .cta-btn {
+    background-color: #ff532c;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+  }
+  
